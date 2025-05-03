@@ -56,7 +56,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-100 via-blue-50 to-indigo-50 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-600 p-4">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white/80 rounded-lg p-4 mb-8 shadow-lg">
           <h1 className="text-4xl font-bold text-center text-black">Pokémon Decks</h1>
@@ -105,8 +105,8 @@ function App() {
                   <button
                     onClick={prevPoke}
                     disabled={number <= 1}
-                    className={`flex items-center gap-2 px-4 py-2 rounded ${
-                      number <= 1 ? 'bg-gray-200 cursor-not-allowed' : 'bg-sky-500 hover:bg-sky-600'
+                    className={`flex items-center gap-2 px-4 py-2 rounded transition-all duration-300 ${
+                      number <= 1 ? 'bg-gray-200 cursor-not-allowed' : 'bg-sky-500 hover:bg-sky-600 hover:scale-110'
                     } text-white `}
                   >
                     <FaArrowLeft /> Previous
@@ -114,7 +114,7 @@ function App() {
                   <span className="text-black font-bold">#{number}</span>
                   <button
                     onClick={nextPoke}
-                    className="flex items-center gap-2 px-4 py-2 bg-sky-500 hover:bg-sky-600 text-white"
+                    className="flex items-center gap-2 px-4 py-2 bg-sky-500 hover:bg-sky-600 text-white rounded transition-all duration-300 hover:scale-110"
                   >
                     Next <FaArrowRight />
                   </button>

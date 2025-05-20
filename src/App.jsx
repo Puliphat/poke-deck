@@ -56,7 +56,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-600 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-400 via-purple-300 to-pink-400 p-4">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white/80 rounded-lg p-4 mb-8 shadow-lg">
           <h1 className="text-4xl font-bold text-center text-black">Pokémon Decks</h1>

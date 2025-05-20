@@ -1,4 +1,4 @@
-React, Vite, Axios, Tailwind css
+Stack: React, Vite, Axios, Tailwind css
 Other: Git, npm 
 
 เปิด terminal -> new terminal
